@@ -1,0 +1,176 @@
+* {
+   
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+
+
+html {
+    background: #e0ebe8;
+    color: #555;
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.text-bg {
+    color: #45b29a;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.text-bg h1 {
+    font-size: 240%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    
+
+}
+
+
+
+
+
+
+
+/* logo */
+
+.logo {
+    width: auto;
+    height: 100px;
+    float: right;
+    justify-items: flex-start;
+}
+
+.nav-bar {
+    display: flex;
+    color: #45b29a;
+    justify-content: flex-end;
+}
+
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    
+
+}
+
+li:hover {
+    border-bottom: 2px solid  #45b29a;
+    
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 90%;
+}
+
+
+.margin-top {
+    margin-top: 80px;
+}
+
+.margin-bottom {
+    margin-bottom: 80px;
+}
+
+
+.text-margin-top {
+    margin-top: 20px;
+}
+
+
+.text-margin-bottom {
+    margin-bottom: 10px;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+
+section p {
+    line-height: 1.42857143;
+    color: #545454;
+}
+
+section h3 {
+    font-size: 1em;
+    color: #45b29a;
+}
+
+section h2 {
+    color: #1e836c;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+
+
+.background {
+    background: #2c3e50;
+
+}
+
+
+
+.container-mod {
+	max-width: 100%;
+    margin: 0px auto;
+    background: #2c3e50;
+}
+
+.container-mod p {
+    text-align: center;
+    color: #45b29a;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+    padding: 2.5em 0 0;
+}
+
+
+.btn {
+    background-color: #45b29a;;
+    height: calc(1.5em + .75rem + 2px);
+    border-color: #f8f9fa;
+    border: 1px solid;
+    color: #f8f9fa;
+    margin: 10px;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+
+}

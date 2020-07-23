@@ -1,0 +1,25 @@
+/* Rensponsive web dev for site ================================================================*/
+
+/* Phones from 0 to 480px settings */
+@media only screen and (max-width: 480px) {
+    .text-bg {
+        width: 100%;
+        
+    }
+
+}
+
+
+
+
+
+/* Phones from 481px to 767px settings */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/* Phones from 768px to 1023px settings */
+@media only screen and (max-width: 1023px) {
+
+}
